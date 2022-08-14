@@ -1,0 +1,40 @@
+html{
+    background-color: aquamarine;
+}
+div{
+    width: auto;
+    background-color: brown;
+    display:block ;
+    margin: 100px;
+    border: 2px solid black;
+}
+
+.number1 {
+    font-style: italic;
+    font-weight:bolder;
+    color: red;
+}
+.number2 {
+    font-weight: 200;
+    color: orange;
+}
+.number3 {
+    font-weight: 300;
+    color: yellow;
+}
+.number4 {
+    font-weight: 400;
+    color: green;
+}
+.number5 {
+    font-weight: 500;
+    color: cyan;
+}
+.number6 {
+    font-weight: 600;
+    color: blue;
+}
+.number7 {
+    font-weight: 700;
+    color: violet;
+}
