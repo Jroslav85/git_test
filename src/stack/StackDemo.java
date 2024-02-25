@@ -5,44 +5,19 @@ import java.util.Stack;
 public class StackDemo {
 
 	public static void main(String[] args) {
-		passengerProcessing();
-	}
-
-	private static void passengerProcessing() {
-		Stack<Passenger> bus = new Stack<>();
+		Stack<Integer> numbers = new Stack<>();
 		
-		bus.add(new Passenger("Jroslav" , "Trofimov"));
+		numbers.push(5);
+		numbers.push(6);
+		numbers.push(7);
+		numbers.push(8);
+		System.out.println(numbers);
 		
-		System.out.println(bus);
-	}
-	
-	private static class Passenger {
+		Stack<Integer> numbersOne = new Stack<>();
 		
-		private static int number;
-		private String name;
-		private String surname;
-		
-		public Passenger(String name, String surname) {
-			number++;
-			this.name = name;
-			this.surname = surname;
+		while(!numbers.isEmpty()) {
+			numbersOne.push(numbers.pop());
 		}
-
-		public static int getNumber() {
-			return number;
-		}
-
-		public String getName() {
-			return name;
-		}
-
-		public String getSurname() {
-			return surname;
-		}
-
-		@Override
-		public String toString() {
-			return "Passenger " + number + "[name=" + name + ", surname=" + surname + "]";
-		}
+		System.out.println(numbersOne);
 	}
 }
