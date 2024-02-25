@@ -16,7 +16,10 @@ public class Main {
 		System.out.println(chList);
 		
 		int i = Collections.frequency(chList, 'o');
-		System.out.println(i);
+		System.out.println("frequency(chList, 'o') " + i);
+		
+		Collections.fill(chList, 'J');
+		System.out.println(chList);
 	}
 
 	private static List<Character> addList(char[] characters) {
