@@ -13,7 +13,7 @@ public class Main {
 		char[] characters = TEXT.toCharArray();
 		List<Character> chList = new ArrayList<>();
 		chList = addList(characters);
-		System.out.println(chList);
+		printList(chList);
 		
 		int i = Collections.frequency(chList, 'o');
 		System.out.println("frequency(chList, 'o') " + i);
@@ -30,5 +30,12 @@ public class Main {
 			}
 		}
 		return list;
+	}
+	
+	private static void printList(List<?> list) {
+		for (int i = 0; i < list.size(); i++) {
+			System.out.printf(" %-3s %s", list.get(i), (i + 1) % 6 == 0 ? "\n" : " ");
+		}
+		System.out.println();
 	}
 }
