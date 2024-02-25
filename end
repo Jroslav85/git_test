@@ -1,0 +1,36 @@
+[33mcommit 21f9be50892e9c2906472bb0bd45ecf04a098435[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Jroslav Trofimov <Jroslav1985@gmail.com>
+Date:   Sun Feb 25 18:14:36 2024 +0500
+
+     final commit
+
+[33mcommit be49a06e4a51f7df944a9efebf6ba99a63a342e5[m
+Merge: 13e96a5 33a2353
+Author: Jroslav Trofimov <Jroslav1985@gmail.com>
+Date:   Sun Feb 25 17:39:13 2024 +0500
+
+    Merge branch 'newBranch'
+
+[33mcommit 13e96a5f375266ba5af768c48bd1f1bb465f63e5[m
+Author: Jroslav Trofimov <Jroslav1985@gmail.com>
+Date:   Sun Feb 25 17:35:00 2024 +0500
+
+    commit 3
+
+[33mcommit 33a2353c4f8d3c3ad3e7daf48aa0b438570e80d2[m[33m ([m[1;31morigin/newBranch[m[33m, [m[1;32mnewBranch[m[33m)[m
+Author: Jroslav Trofimov <Jroslav1985@gmail.com>
+Date:   Sun Feb 25 17:29:54 2024 +0500
+
+    commit new Branch
+
+[33mcommit 6425f14c79b37afc4fa5c2f1ebeca9e9a8d5003f[m
+Author: Jroslav Trofimov <Jroslav1985@gmail.com>
+Date:   Sun Feb 25 17:21:25 2024 +0500
+
+    2 commit
+
+[33mcommit 3e02d983cd6a8ccf48a58a5e350058f3ed590b58[m
+Author: Jroslav Trofimov <Jroslav1985@gmail.com>
+Date:   Sun Feb 25 17:10:11 2024 +0500
+
+    added first commit
