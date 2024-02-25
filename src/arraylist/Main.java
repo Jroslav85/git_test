@@ -16,7 +16,7 @@ public class Main {
 		System.out.println(chList);
 		
 		int i = Collections.frequency(chList, 'o');
-		System.out.println("frequency(chList, 'o') " + i);
+		System.out.println("frequency(chList, 's') " + i);
 		
 		Collections.fill(chList, 'J');
 		System.out.println(chList);
